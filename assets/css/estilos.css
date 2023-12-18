@@ -1,5 +1,6 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway",
+    sans-serif;
 }
 
 /* Hero Section */
@@ -13,7 +14,8 @@ body {
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
+#Mis-trabajos
+  .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,18 +24,31 @@ body {
 
 /* Contacto */
 
-#Contacto form label {
+#Contacto
+  form
+  label {
   font-weight: 700;
   color: #373a3c;
 }
 
 @media (max-width: 768px) {
-  #Contacto form label {
+  #Contacto
+    form
+    label {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
+}
 
+.scale:hover {
+  transform: scale(
+    1.5
+  );
+}
+
+.logo {
+  font-weight: bold;
 }
